@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="ifempty" value="if (empty($END$)) {&#10;&#10;}" shortcut="TAB" description="if empty" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifnotemp" value="if (!empty($END$)) {&#10;&#10;}" shortcut="TAB" description="if not empty" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
