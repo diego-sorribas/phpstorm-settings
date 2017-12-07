@@ -5,6 +5,7 @@
       <mapping pattern="a2" type="PLAIN_TEXT" />
       <mapping pattern="a1" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="p8" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
