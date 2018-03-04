@@ -1,26 +1,8 @@
 <application>
-  <component name="PhpAutoImport" auto_import_from_global_scope="true" auto_import_file_scope="true" prepend_global_functions_and_constants="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcs" />
     </phpcs_settings>
-  </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="/usr/bin/php" id="caa0b84f-3af2-487f-8250-eaeea0cf520b" name="PHP 7" debugger_id="php.debugger.XDebug">
-        <configuration_options>
-          <configuration_option name="xdebug.profiler_enable" value="1" />
-          <configuration_option name="xdebug.profiler_output_dir" value="$USER_HOME$/Profiler" />
-        </configuration_options>
-      </interpreter>
-      <interpreter home="vagrant:///home/diegosorribas/Workspace/Box/rnTVn7/usr/bin/php" id="c42e6e3c-2df0-454c-8f42-055e31be386e" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
-        <configuration_options>
-          <configuration_option name="xdebug.profiler_enable" value="1" />
-          <configuration_option name="xdebug.profiler_output_dir" value="$USER_HOME$/Profiler" />
-        </configuration_options>
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/Workspace/Box/rnTVn7" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-    </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
